@@ -1,7 +1,7 @@
 import json
-from pathlib import Path
-from ping import ping_host
-from reporter import save_report
+#from pathlib import Path
+from src.ping import ping_host
+from src.reporter import save_report
 
 def load_clients(config_file):
     with open(config_file, "r") as file:
@@ -29,6 +29,7 @@ def monitor_clients(clients):
 
 
 #temp codeblock here.
+"""
 
 def main():
     config_file = Path("config/clients.json")
@@ -46,3 +47,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
