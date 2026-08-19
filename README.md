@@ -74,7 +74,7 @@ Run the application:
 python3 main.py
 
 Example output:
-
+```text
 {'name': 'lab-pc-1', 'host': '192.168.1.101', 'reachable': True, 'latency_ms': <value>}
 {'name': 'lab-pc-2', 'host': '192.168.1.102', 'reachable': True, 'latency_ms': <value>}
 
