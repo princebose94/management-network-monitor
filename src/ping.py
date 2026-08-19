@@ -33,11 +33,3 @@ def ping_host(ip_address):
         "reachable": False,
         "latency_ms": None
     }
-
-
-#temp code check below
-"""
-if __name__ == "__main__":
-    ip = "10.10.0.215"
-    print(ping_host(ip))
-"""
