@@ -13,7 +13,7 @@ and response time of configured network clients.
 - Basic automated testing using pytest
 
 ## Project Structure
-
+```text
 management-network-monitor/
 │
 ├── config/
@@ -35,7 +35,7 @@ management-network-monitor/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
+```
 ## Configuration
 
 Clients are configured in:
