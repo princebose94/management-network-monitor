@@ -66,23 +66,23 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 Install development dependencies:
-
+```
 python -m pip install -r requirements.txt
-
+```
 Run the application:
 
-python3 main.py
+`python3 main.py`
 
 Example output:
-
+```text
 {'name': 'lab-pc-1', 'host': '192.168.1.101', 'reachable': True, 'latency_ms': <value>}
 {'name': 'lab-pc-2', 'host': '192.168.1.102', 'reachable': True, 'latency_ms': <value>}
 
 Report saved successfully!
-
+```
 The generated report is stored at:
 
-reports/network_status.json
+`reports/network_status.json`
 
 Generated reports are excluded from Git using .gitignore.
 
@@ -90,7 +90,7 @@ Generated reports are excluded from Git using .gitignore.
 
 Run:
 
-pytest
+`pytest`
 
 The current test suite verifies the reachable and unreachable
 behaviour of the ping function.
